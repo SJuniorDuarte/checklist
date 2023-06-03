@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Check list</h1>
+    </header>
+    <main>
+        <input type="text" id="in" placeholder="Nome de sua Tarefa"><br><br>
+        <button onclick="botao()">Adicionar Tarefa</button>
+        <div class="are">
+             <h1>Tarefa(s) em Aberto</h1>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div>
+            <h1>Tarefa(s) Realizda(s)</h1>   
+        </div>
+    </main>
+    <script>
+        function botao() {
+            
+        var h1 = document.createElement("h1")
+            h1.innerHTML = "hello world"
+            document.body.appendChild(h1)
+    }
+        </script>
+</body>
+</html>

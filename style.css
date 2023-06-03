@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    font-size: xx-large ;
+}
+main{
+    text-align: center;
+}
+#in {
+    padding: 7px;
+    border-radius: 112px;
+    border: solid rgb(132, 0, 255);
+}
+button{
+    background-color: rgb(132, 0, 255);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+}
